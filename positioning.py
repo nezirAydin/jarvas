@@ -37,3 +37,4 @@ def iterate_position(range1, range2, range3):
     x = np.mat(pinvA) * np.mat(y).reshape(3, 1)
     estimate = x[:2, :].reshape(2)
     return estimate
+##
